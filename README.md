@@ -14,5 +14,5 @@ This workflow has 1 operators:
 
 ##### See Also
 
-[scale_min_max_app](https://github.com/tercen/scale_min_max_app)
-[ratio_app](https://github.com/tercen/ratio_app)
+* [scale_min_max_app](https://github.com/tercen/scale_min_max_app)
+* [ratio_app](https://github.com/tercen/ratio_app)
