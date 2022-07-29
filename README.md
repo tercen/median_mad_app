@@ -6,7 +6,7 @@
 
 ##### Details
 
-The input data is the [c04_groups](https://github.com/tercen/data_designs/tree/main/c04_groups)
+The input data is the [c05_super_groups](https://github.com/tercen/data_designs/tree/main/c05_super_groups).
 
 This workflow has 1 operators:
 
