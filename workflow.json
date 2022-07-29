@@ -1,9 +1,9 @@
 {
   "kind": "Workflow",
-  "id": "8008802feb02665ff8336e5e1b466271",
+  "id": "a0cd332856f6609bbcfe6ac2e49e63f2",
   "isDeleted": false,
-  "rev": "3-bac25e395004b7800fead2aae189cf45",
-  "description": "The median_mad_app is an application that calculates the median and the median absolute deviation (MAD) within each cell that contains a set of replicates.",
+  "rev": "3-de4d66359cae59999b7cdbe67bac0b1a",
+  "description": "A Tercen application that calculates the median and the median absolute deviation (MAD) across a set of replicates.",
   "name": "median_mad_app",
   "createdBy": "myrto.kostadima",
   "acl": {
@@ -13,11 +13,11 @@
   },
   "createdDate": {
     "kind": "Date",
-    "value": "2022-07-14T14:46:36.220724Z"
+    "value": "2022-07-29T14:53:26.163764Z"
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2022-07-14T14:46:55.208290Z"
+    "value": "2022-07-29T14:53:37.014554Z"
   },
   "urls": [
     {
@@ -63,13 +63,13 @@
     },
     {
       "kind": "Link",
-      "id": "989059a4-9dd4-4a99-9eb9-a99e7f27550f",
+      "id": "ce5b0d99-03c5-4643-9378-24f8480f5ca6",
       "inputId": "1a372834-5722-4681-90e9-8b024caa1664-i-0",
       "outputId": "f5421d6e-e527-4cc4-9408-cb994b6b110f-o-0"
     },
     {
       "kind": "Link",
-      "id": "9aa961af-8f8e-4dd3-b673-b0ef97090965",
+      "id": "2bd0847a-0a7e-4c0a-9a4c-ec1330f02ba4",
       "inputId": "f5421d6e-e527-4cc4-9408-cb994b6b110f-i-0",
       "outputId": "0dcdfc80-1128-4821-aa48-798bdb7a2d0a-o-0"
     }
@@ -230,7 +230,7 @@
         },
         "columnTable": {
           "kind": "CrosstabTable",
-          "cellSize": 138.0,
+          "cellSize": 82.8,
           "offset": 0,
           "graphicalFactors": [
             {
@@ -314,7 +314,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "2fa0fc13-42fe-49c6-86ab-5aab83d6ddeb"
+        "id": "9c0a725d-686b-481e-bbd2-32837c9dc759"
       }
     },
     {
@@ -380,7 +380,7 @@
                 "factors": [
                   {
                     "kind": "Factor",
-                    "name": "rep..Group",
+                    "name": "Supergroup",
                     "type": "string"
                   }
                 ],
@@ -483,7 +483,7 @@
         },
         "columnTable": {
           "kind": "CrosstabTable",
-          "cellSize": 110.0,
+          "cellSize": 57.8,
           "offset": 0,
           "graphicalFactors": [
             {
@@ -567,7 +567,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "97c2fcd4-83a4-4a56-8ee8-bfc6691667eb"
+        "id": "51a58200-a309-4703-8871-646f0647f3f4"
       }
     },
     {
@@ -744,7 +744,7 @@
         "kind": "WizardStepModel",
         "namespace": "median_mad",
         "description": "",
-        "appDesignType": "median_mad.c04_groups",
+        "appDesignType": "median_mad.c05_super_groups",
         "factors": [
           {
             "kind": "MappingFactor",
@@ -788,7 +788,28 @@
             "factors": [
               {
                 "kind": "Factor",
+                "name": "Supergroup",
+                "type": "string"
+              },
+              {
+                "kind": "Factor",
                 "name": "Group",
+                "type": "string"
+              }
+            ],
+            "isRequired": true
+          },
+          {
+            "kind": "MappingFactor",
+            "name": "Supergroup",
+            "type": "string",
+            "isSingle": false,
+            "description": "",
+            "factorName": "Supergroup",
+            "factors": [
+              {
+                "kind": "Factor",
+                "name": "Supergroup",
                 "type": "string"
               }
             ],
@@ -840,7 +861,28 @@
             "factors": [
               {
                 "kind": "Factor",
+                "name": "Supergroup",
+                "type": "string"
+              },
+              {
+                "kind": "Factor",
                 "name": "Group",
+                "type": "string"
+              }
+            ],
+            "isRequired": true
+          },
+          {
+            "kind": "MappingFactor",
+            "name": "Supergroup",
+            "type": "string",
+            "isSingle": false,
+            "description": "",
+            "factorName": "Supergroup",
+            "factors": [
+              {
+                "kind": "Factor",
+                "name": "Supergroup",
                 "type": "string"
               }
             ],
